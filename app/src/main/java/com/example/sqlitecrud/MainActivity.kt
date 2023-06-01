@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
             notesAdapter =mainAdapter(this, list)
             binding?.rvRecords?.adapter = notesAdapter
         }
-
         clickListener()
 
 
